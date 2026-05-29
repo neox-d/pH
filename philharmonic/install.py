@@ -1,7 +1,7 @@
 """
 Demo seeder. Run after installing the app:
 
-    bench --site <site> execute philharmonic.philharmonic.install.seed_demo
+    bench --site <site> execute philharmonic.install.seed_demo
 
 Reproduces the Künzle & Reichert recruitment scenario through the Frappe ORM so
 you can watch the lifecycle + macro coordination in Desk.
