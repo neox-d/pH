@@ -17,12 +17,12 @@ app_version = "0.1.0"
 # -----------------------------------------------------------------------------
 doc_events = {
     "Job Application": {
-        "validate": "philharmonic.philharmonic.engine.adapter.evaluate_doc",
-        "on_update": "philharmonic.philharmonic.engine.adapter.propagate",
+        "validate": "philharmonic.engine.adapter.evaluate_doc",
+        "on_update": "philharmonic.engine.adapter.propagate",
     },
     "Job Review": {
-        "validate": "philharmonic.philharmonic.engine.adapter.evaluate_doc",
-        "on_update": "philharmonic.philharmonic.engine.adapter.propagate",
+        "validate": "philharmonic.engine.adapter.evaluate_doc",
+        "on_update": "philharmonic.engine.adapter.propagate",
     },
 }
 
@@ -35,4 +35,4 @@ doctype_js = {
 }
 
 # Optional seed data for a quick demo (`bench --site <site> execute
-# philharmonic.philharmonic.install.seed_demo`). Not auto-run on install.
+# philharmonic.install.seed_demo`). Not auto-run on install.
