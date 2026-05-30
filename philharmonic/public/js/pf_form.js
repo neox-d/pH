@@ -36,7 +36,7 @@ function pf_show_state(frm) {
 
 function pf_show_pending(frm) {
   frappe.call({
-    method: "philharmonic.philharmonic.engine.adapter.pending_activities",
+    method: "philharmonic.engine.adapter.pending_activities",
     args: { doctype: frm.doctype, name: frm.docname },
     callback: function (r) {
       if (!r.message) return;
